@@ -5,3 +5,4 @@ obj/
 .DS_Store
 *.swp
 AGENTS.md
+opencode.json
