@@ -1,13 +1,13 @@
 using System.Collections.Concurrent;
 using System.Diagnostics;
 
-namespace Lab5Task13;
+namespace Lab6Task2;
 
 static class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("=== ЗАДАНИЕ 13. PARALLEL.FOREACH: ОБРАБОТКА, ФИЛЬТРАЦИЯ, ОСТАНОВКА ===");
+        Console.WriteLine("=== ЗАДАНИЕ 2. PARALLEL.FOREACH: ОБРАБОТКА, ФИЛЬТРАЦИЯ, ОСТАНОВКА ===");
         Console.WriteLine($"Среда: {Environment.ProcessorCount} логических ядер, .NET {Environment.Version}\n");
 
         BasicForeach();
@@ -16,7 +16,7 @@ static class Program
         Cancellation();
         AggregationAndComparison();
 
-        Console.WriteLine("=== ЗАДАНИЕ 13 ВЫПОЛНЕНО ===");
+        Console.WriteLine("=== ЗАДАНИЕ 2 ВЫПОЛНЕНО ===");
         Pause();
     }
 

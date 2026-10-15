@@ -1,7 +1,7 @@
 using System.Collections.Concurrent;
 using System.Diagnostics;
 
-namespace Lab5Task12;
+namespace Lab6Task1;
 
 static class Program
 {
@@ -20,7 +20,7 @@ static class Program
 
     static void Main(string[] args)
     {
-        Console.WriteLine("=== ЗАДАНИЕ 12. PARALLEL.FOR И СИНХРОНИЗАЦИЯ ОБЩЕГО РЕСУРСА ===");
+        Console.WriteLine("=== ЗАДАНИЕ 1. PARALLEL.FOR И СИНХРОНИЗАЦИЯ ОБЩЕГО РЕСУРСА ===");
         Console.WriteLine($"Среда: {Environment.ProcessorCount} логических ядер, .NET {Environment.Version}\n");
 
         SequentialBaseline();
@@ -30,7 +30,7 @@ static class Program
         Compare();
         ArrayAndListExamples();
 
-        Console.WriteLine("=== ЗАДАНИЕ 12 ВЫПОЛНЕНО ===");
+        Console.WriteLine("=== ЗАДАНИЕ 1 ВЫПОЛНЕНО ===");
         Pause();
     }
 

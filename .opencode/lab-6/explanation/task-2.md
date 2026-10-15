@@ -1,6 +1,6 @@
-# Задание 13 — Parallel.ForEach с коллекциями
+# Задание 2 — Parallel.ForEach с коллекциями
 
-**Проект:** `Lab6/Task13` · **Запуск:** `cd Lab6/Task13 && dotnet run`
+**Проект:** `Lab6/Task2` · **Запуск:** `cd Lab6/Task2 && dotnet run`
 **Источник:** `ЛабПарПрограм.docx`, задание 2 «Parallel.ForEach с коллекциями»
 
 ## Что делает программа

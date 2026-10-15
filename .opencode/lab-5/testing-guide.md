@@ -9,8 +9,9 @@ Producer-Consumer, взаимоблокировки
 
 Проверено на **.NET 10** (`dotnet --version` → 10.0.112), Linux x64, 8 логических ядер.
 Все проекты — в `Lab5/Task1` … `Lab5/Task11`, каждое задание — самостоятельный
-консольный проект. Задания 12–16 (TPL/PLINQ) относятся к лабораторной работе 6
-и лежат в `Lab6/Task12` … `Lab6/Task16` (см. `.opencode/lab-6/testing-guide.md`).
+консольный проект. Задания 1–5 (TPL/PLINQ) лабораторной работы 6
+лежат в `Lab6/Task1` … `Lab6/Task5` (задание 5 разбито на
+`Lab6/Task5/Variant1` … `Variant7`; см. `.opencode/lab-6/testing-guide.md`).
 
 > Если на машине преподавателя только SDK 8.0, нужно заменить
 > `<TargetFramework>net10.0</TargetFramework>` на `net8.0` во всех `.csproj`.

@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace Lab5Task14;
+namespace Lab6Task3;
 
 sealed record Employee(int Id, string Name, string Department, decimal Salary, int Age, DateTime HireDate);
 
@@ -8,7 +8,7 @@ static class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("=== ЗАДАНИЕ 14. PARALLEL LINQ (PLINQ) ===");
+        Console.WriteLine("=== ЗАДАНИЕ 3. PARALLEL LINQ (PLINQ) ===");
         Console.WriteLine($"Среда: {Environment.ProcessorCount} логических ядер, .NET {Environment.Version}\n");
 
         List<Employee> staff = Generate(20_000);
@@ -21,7 +21,7 @@ static class Program
         QueryVsMethod(staff);
         ExecutionOptions(staff);
 
-        Console.WriteLine("=== ЗАДАНИЕ 14 ВЫПОЛНЕНО ===");
+        Console.WriteLine("=== ЗАДАНИЕ 3 ВЫПОЛНЕНО ===");
         Pause();
     }
 

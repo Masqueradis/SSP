@@ -1,7 +1,7 @@
 using System.Collections.Concurrent;
 using System.Diagnostics;
 
-namespace Lab5Task15;
+namespace Lab6Task4;
 
 static class Program
 {
@@ -11,7 +11,7 @@ static class Program
 
     static void Main(string[] args)
     {
-        Console.WriteLine("=== ЗАДАНИЕ 15. РАЗБИЕНИЕ НА ДИАПАЗОНЫ (PARTITIONER) И ОБРАБОТКА ИЗОБРАЖЕНИЙ ===");
+        Console.WriteLine("=== ЗАДАНИЕ 4. РАЗБИЕНИЕ НА ДИАПАЗОНЫ (PARTITIONER) И ОБРАБОТКА ИЗОБРАЖЕНИЙ ===");
         Console.WriteLine($"Среда: {Environment.ProcessorCount} логических ядер, .NET {Environment.Version}\n");
         Console.WriteLine($"Изображение {Width}x{Height}, каждый прогон выполняет {Rounds} полных проходов.");
 
@@ -25,7 +25,7 @@ static class Program
         ChunkComparison();
         EdgeCases();
 
-        Console.WriteLine("=== ЗАДАНИЕ 15 ВЫПОЛНЕНО ===");
+        Console.WriteLine("=== ЗАДАНИЕ 4 ВЫПОЛНЕНО ===");
         Pause();
     }
 
