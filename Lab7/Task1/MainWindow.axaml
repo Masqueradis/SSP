@@ -1,0 +1,35 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="using:Task1"
+        x:Class="Task1.MainWindow"
+        Title="IoT Датчик температуры - График"
+        Width="700" Height="500"
+        WindowStartupLocation="CenterScreen"
+        Background="White">
+	<DockPanel>
+		<!-- Информационная панель -->
+		<Border DockPanel.Dock="Top" Height="70" Background="#F0F0F0" Padding="20,10">
+			<StackPanel Spacing="6">
+				<TextBlock x:Name="LblTemp"
+				           Text="Температура: --°C"
+				           FontSize="17" FontWeight="Bold"
+				           Foreground="Red" />
+				<TextBlock x:Name="LblStatus"
+				           Text="Статус: Ожидание..."
+				           FontSize="13"
+				           Foreground="Blue" />
+			</StackPanel>
+		</Border>
+
+		<!-- Кнопки управления -->
+		<Border DockPanel.Dock="Top" Height="48" Background="White" Padding="20,8">
+			<StackPanel Orientation="Horizontal" Spacing="10">
+				<Button x:Name="BtnAdd" Content="Добавить показание" Width="170" Height="32" />
+				<Button x:Name="BtnClear" Content="Очистить" Width="110" Height="32" />
+			</StackPanel>
+		</Border>
+
+		<!-- График -->
+		<local:ChartControl x:Name="Chart" />
+	</DockPanel>
+</Window>
