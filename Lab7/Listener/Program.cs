@@ -11,7 +11,7 @@ using System.Text.Json;
 // Подписчик на телеметрию симулятора: проверка, что данные дошли до облачного сервера
 class Listener
 {
-    private const string MQTT_BROKER = "test.mosquitto.org";
+    private const string MQTT_BROKER = "broker.hivemq.com";
     private const int MQTT_PORT = 1883;
     private const string DEFAULT_TOPIC = "iot/devices/simulated/data";
 

@@ -156,7 +156,7 @@ namespace IoTDeviceSimulator
 
     class Program
     {
-        private const string MQTT_BROKER = "test.mosquitto.org";
+        private const string MQTT_BROKER = "broker.hivemq.com";
         private const int MQTT_PORT = 1883;
         private const string DEVICE_ID = "simulated_device_001";
         private const string MQTT_TOPIC = "iot/devices/simulated/data";
